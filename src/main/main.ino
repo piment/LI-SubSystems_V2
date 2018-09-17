@@ -15,13 +15,14 @@ void setup() {
 
 void loop() {
   // ###TEST CABLE###
-  // Check Test Cable
-  // TC_ActualState = digitalRead(TC_Pin);
-  // if(TC_ActualState!= TC_LastState){
-  //    TC_LastState = TC_ActualState;
-  //    set_TCLed(TC_LastState);
-  //    Play Test Bip
-  // }
+  /* Check Test Cable
+   TC_ActualState = digitalRead(TC_Pin);
+   if(TC_ActualState!= TC_LastState){
+      TC_LastState = TC_ActualState;
+      set_TCLed(TC_LastState);
+      Play Test Bip
+     }
+   */ 
   // ###END TEST CABLE###
 
   // ###SUBSYSTEMS CABLES###
